@@ -25,6 +25,7 @@ import {
   Image as ImageIcon,
   Sparkles
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import { cn } from './lib/utils';
 import { 
   transcribeImageOrPdf, 
@@ -525,6 +526,7 @@ export default function App() {
         <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[60%] bg-purple-600/10 blur-[150px] rounded-full" />
         <div className="absolute bottom-[-20%] right-[-10%] w-[60%] h-[60%] bg-pink-600/10 blur-[150px] rounded-full" />
       </div>
+      <Analytics />
     </div>
   );
 }
