@@ -1,0 +1,8 @@
+{
+  "name": "VoxLoom: Image to Audio Book",
+  "description": "Transform images and PDFs into immersive audiobooks with real-time word definitions and high-quality TTS.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
